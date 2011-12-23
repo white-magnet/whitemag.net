@@ -6,7 +6,8 @@
 .right { float: right; }
 .clear { clear: both; }
 .text-center { text-align: center; }
-.alink { color:#F00; }
+a { color: #c00; }
+a:hover { text-decoration: underline; }
 
 body {
   font-size: 12px;
@@ -17,19 +18,24 @@ body {
 
 h1 {
   font-size: 35px;
-  color:#252525;
+  color: #252525;
 }
 
 h2 {
   font-size: 30px;
-  color:#000;
+  color: #000;
   margin-bottom: 15px;
 }
 
 p {
   font-size: 14px;
-  color:#000;
+  color: #000;
   line-height: 25px;
+  text-align: justify;
+}
+
+p + p {
+  margin-top: 15px;
 }
 
 #home-bg {
@@ -99,7 +105,7 @@ ul#menu {
 ul#menu li a {
   font: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color:#434343;
+  color: #434343;
   font-size: 20px;
   display: block;
   width: 104px;
@@ -108,7 +114,8 @@ ul#menu li a {
 
 ul#menu li a:hover, ul#menu li a.on {
   background: url(../images/hover.png) 0 2px no-repeat;
-  color:#fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .section-mid {
@@ -121,18 +128,27 @@ ul#menu li a:hover, ul#menu li a.on {
 
 #team-content {
   display: block;
-  margin: 0 0 0 0;
+  margin: 0;
   width: 566px;
   position: relative;
 }
 
-#team-content .team {
+#team-content .member {
   width: 188px;
   position: relative;
   float: left;
 }
 
-#team-content .team p { text-align: center; color:#202020;}
+#team-content .member .avatar {
+  width: 164px;
+  height: 188px;
+}
+
+#team-content .member .member-name {
+  text-align: center;
+}
+
+#team-content .team p { text-align: center; color: #202020;}
 #team-content .team img { margin: 0 0 0 15px;}
 
 .section-right {
@@ -143,15 +159,22 @@ ul#menu li a:hover, ul#menu li a.on {
 }
 
 #logo-text {
-  background-image: url(../images/white-magnet-software-logo-text.png);
+  background: url(../images/white-magnet-software-logo-text.png) no-repeat;
   width: 247px;
   height: 42px;
   margin-right: 18px;
 }
 
 #logo-image {
-  background-image: url(../images/white-magnet-software-logo-image.png);
+  background: url(../images/white-magnet-software-logo-image.png) no-repeat;
   width: 270px;
   height: 269px;
   margin: 29px 0px 0px 0px;
+}
+
+#videocache {
+  background: url(../images/videocache.png) no-repeat;
+  width: 110px;
+  height: 110px;
+  margin-left: 15px;
 }
