@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; text-decoration:none; list-style:none;}
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear:both;}
+.text-center{ text-align:center;}
+.alink{
+	color:#F00;
+}
+body{
+	font-size:12px;
+	font-family: Verdana, Geneva, sans-serif;
+	background:url(../images/body-bg.jpg) repeat-x;
+	margin:-100px 0 0 0;
+}
+#home-bg{
+	background:url(../images/home-bg.jpg) no-repeat;
+	position:absolute;
+	width:1366px;
+	height:800px;
+}
+#about-bg{
+	background:url(../images/about-bg.jpg) no-repeat;
+	position:absolute;
+	width:1366px;
+	height:800px;
+}
+#product-bg{
+	background:url(../images/products-bg.jpg) no-repeat;
+	position:absolute;
+	width:1366px;
+	height:800px;
+}
+#team-bg{
+	background:url(../images/team-bg.jpg) no-repeat;
+	position:absolute;
+	width:1366px;
+	height:800px;
+}
+#contact-bg{
+	background:url(../images/contact-bg.jpg) no-repeat;
+	position:absolute;
+	width:1366px;
+	height:800px;
+}
+#wrapper{
+	width:1366px;
+	margin:0 auto;
+	height:auto;
+	position:relative;
+}
+.section-left{
+	float:left;
+	margin:431px 0 0 114px;	
+	overflow:visible;
+	display:inline;
+}
+h1{
+	font-size:35px;
+	color:#252525;
+}
+ul#menu{
+	margin:23px 0 0 50px;
+	text-align:right;
+	display:inline;
+}
+ul#menu li{
+}
+ul#menu li a{
+	font:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#434343;
+	font-size:20px;
+	display:block;
+	width:104px;
+	padding:5px 18px 0 0;
+}
+ul#menu li a:hover,ul#menu li a.on{background:	 url(../images/hover.png) 0 2px no-repeat; color:#fff;}
+.section-mid{
+	margin:412px 0 0 27px;
+	float:left;
+	width:566px;
+	height:auto;
+	overflow:visible;
+}
+#team-content{
+	display:block;
+	margin:0 0 0 0;
+	width:566px;
+	position:relative;
+}
+#team-content .team{
+	width:188px;
+	position:relative;
+	float:left;
+}
+#team-content .team p{ text-align:center; color:#202020;}
+#team-content .team img{ margin:0 0 0 15px;}
+h2{
+	font-size:30px;
+	color:#000;
+}
+p{
+	font-size:14px;
+	color:#000;
+	line-height:25px;
+}
+.section-right{
+	width:314px;
+	height:340px;
+	margin:382px 73px 0 0;
+	overflow:visible;
+	float:right;
+}
+#logo{
+	background-image:url(../images/logo.png);
+	width:247px;
+	height:42px;
+	margin-right:18px;
+}
