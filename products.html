@@ -6,14 +6,19 @@
     <meta name="description" content="White Magnet Software Private Limited is a privately held company operating from Hyderabad, India. We provide bandwidth/network optimization services to Internet Service Providers, Companies and Universities/Schools around the world." />
     <meta name="keywords" content="White Magnet, White Magnet Software, Videocache, Cache Videos, Proxy Server, Video Acceleration, Video Proxy, Squid Server, Squid Consultancy, Squid Support, Squid" />
     <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen, projection" />
+    <script type="text/javascript" src='js/script.min.js'></script>
+    <script type="text/javascript">
+      $script(['js/cufon-yui.js', 'js/neosans.js'], function() { Cufon.replace('h1'); Cufon.replace('h2'); Cufon.replace('#menu a', {hover:true} ); });
+    </script>
   </head>
   <body>
     <div id="wrapper">
-      <div id="product-bg">
+      <div id="product-bg" class="round">
         <div class="section-left left">
           <h1>WELCOME</h1>
           <ul id="menu" class="left">
             <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
             <li><a href="./products.html" class="on">Products</a></li>
             <li><a href="./team.html">Team</a></li>
             <li><a href="./contact.html">Contact</a></li>
@@ -24,7 +29,7 @@
         <div class="section-mid">
           <h2>Our Products</h2>
           <a id="videocache" class="right" href="http://cachevideos.com/" target="_blank"></a>
-          <p><strong>Videocache</strong> is a <a href="http://www.squid-cache.org/" target="_blank" rel="nofollow">Squid</a> URL rewriter plugin for bandwidth optimization while browsing famous video sharing websites like Youtube, Metacafe etc. It helps you save bandwidth when a particular video is requested more than once from the same network.</p>
+          <p><strong>Videocache</strong> is a <a href="http://www.squid-cache.org/" target="_blank" rel="nofollow" class="link">Squid</a> URL rewriter plugin for bandwidth optimization while browsing famous video sharing websites like Youtube, Metacafe etc. It helps you save bandwidth when a particular video is requested more than once from the same network.</p>
           <p>Squid can't cache the videos served dynamically. Videocache fits into squid to help it cache the videos. The cached videos are stored on your proxy server's local storage. These cached videos can be served to your clients at a faster speed saving your upstream bandwidth.</p>
         </div><!--section-mid-->
 
@@ -35,17 +40,5 @@
         </div><!--section-right-->
       </div><!--product-bg-->
     </div><!--wrapper-->
-    <script type="text/javascript" src="js/cufon-yui.js"></script>
-    <script type="text/javascript" src="js/neosans.js"></script>
-    <script type="text/javascript">
-      Cufon.replace('h1');
-      Cufon.replace('h2');
-      Cufon.replace('#menu a',{hover:true});
-    </script>
-    <script type="text/javascript" src="js/cufon-yui.js"></script>
-    <script type="text/javascript" src="js/neosans-light.js"></script>
-    <script type="text/javascript">
-      Cufon.replace('.neosans-light');
-    </script>
   </body>
 </html>

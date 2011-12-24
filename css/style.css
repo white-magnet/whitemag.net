@@ -6,8 +6,9 @@
 .right { float: right; }
 .clear { clear: both; }
 .text-center { text-align: center; }
-a { color: #c00; }
-a:hover { text-decoration: underline; }
+a { color: #DA1C0E; }
+a:hover { color: #b00; }
+.link:hover { border-bottom: 2px solid #a00; }
 
 body {
   font-size: 12px;
@@ -36,6 +37,12 @@ p {
 
 p + p {
   margin-top: 15px;
+}
+
+.round {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
 
 #home-bg {
@@ -114,7 +121,6 @@ ul#menu li a {
 
 ul#menu li a:hover, ul#menu li a.on {
   background: url(../images/hover.png) 0 2px no-repeat;
-  text-decoration: none;
   color: #fff;
 }
 

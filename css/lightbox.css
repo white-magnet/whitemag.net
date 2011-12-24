@@ -1,6 +1,6 @@
 .jquery-lightbox-overlay
 {
-  background:#f3f3f3;
+  background:#000000;
 }
 
 .jquery-lightbox
@@ -22,21 +22,21 @@
 
 .jquery-lightbox-border-top-left
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat 0 0;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat 0 0;
   top:0;
   left:0;
 }
 
 .jquery-lightbox-border-top-right
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat right 0;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat right 0;
   top:0;
   right:0;
 }
 
 .jquery-lightbox-border-top-middle
 {
-  background:#141517;
+  background:#2b2b2b;
   position:absolute;
   height:7px;
   width:78%;
@@ -48,21 +48,21 @@
 
 .jquery-lightbox-border-bottom-left
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat 0 bottom;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat 0 bottom;
   bottom:0;
   left:0;
 }
 
 .jquery-lightbox-border-bottom-right
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat right bottom;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat right bottom;
   bottom:0;
   right:0;
 }
 
 .jquery-lightbox-border-bottom-middle
 {
-  background:#141517;
+  background:#2b2b2b;
   height:7px;
   width:78%;
   position:absolute;
@@ -74,8 +74,8 @@
 
 .jquery-lightbox-title
 {
-  background:#141517;
-  color:#f3f3f3;
+  background:#2b2b2b;
+  color:#FFFFFF;
   font-family:verdana,arial,serif;
   font-size:11px;
   line-height:14px;
@@ -84,10 +84,8 @@
   position:absolute;
   bottom:0;
   z-index:7000;
-
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  opacity:0.9;
+  text-align:center;
 }
 
 .jquery-lightbox-html
@@ -95,8 +93,8 @@
   z-index:7000;
   position:relative;
   border:0;
-  border-left:7px solid #141517;
-  border-right:7px solid #141517;
+  border-left:7px solid #2b2b2b;
+  border-right:7px solid #2b2b2b;
   padding:0px 15px;
   vertical-align:top;
 }
@@ -148,22 +146,22 @@
 
 .jquery-lightbox-loading
 {
-  background:#ffffff url(images/loading.gif) no-repeat center center;
+  background:#FFFFFF url(../images/lightbox/loading.gif) no-repeat center center;
 }
 
 .jquery-lightbox-button-close
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat -154px -23px;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -190px -115px;
   position:absolute;
-  top:7px;
+  top:12px;
   right:-26px;
   width:29px;
-  height:40px;
+  height:29px;
 }
 
 .jquery-lightbox-button-close:hover
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat -203px -23px;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -220px -115px;
 }
 
 .jquery-lightbox-button-close span,
@@ -174,104 +172,119 @@
 
 .jquery-lightbox-mode-image .jquery-lightbox-button-close
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat -30px -29px;
   right:14px;
   z-index:7002;
-  width:40px;
-  height:29px;
-}
-
-.jquery-lightbox-mode-image .jquery-lightbox-button-close:hover
-{
-  background: url(images/jquery-lightbox-theme.png) no-repeat -83px -29px;
 }
 
 .jquery-lightbox-buttons 
 {
   position:absolute;
-  z-index:7001;
-  overflow:visible;
-  width:100%;
-  height:100%;
   top:7px;
-  bottom:0;
   left:7px;
-  right:0;
+  z-index:7001;
+  height:39px;
+  display:none;
 }
 
 .jquery-lightbox-buttons .jquery-lightbox-buttons-init,
 .jquery-lightbox-buttons .jquery-lightbox-buttons-end
 {
-  width:14px;
-  height:29px;
+  width:5px;
+  height:39px;
   float:left;
   display:inline;
 }
 
 .jquery-lightbox-buttons .jquery-lightbox-buttons-init
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat -32px -82px;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -151px -153px;
+  margin:7px 0 0 7px;
 }
 
 .jquery-lightbox-buttons .jquery-lightbox-buttons-end
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat -339px -82px;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -244px -153px;
+  margin:7px 0 0 0;
 }
 
 .jquery-lightbox-buttons .jquery-lightbox-button-left
 {
-  display:none;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -156px -153px;
+  width:24px;
+  height:39px;
+  float:left;
+  display:inline;
+  margin:7px 0 0 0;
+}
+
+.jquery-lightbox-buttons .jquery-lightbox-button-left:hover
+{
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -156px -194px;
 }
 
 
 .jquery-lightbox-buttons .jquery-lightbox-button-right
 {
-  display:none;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -220px -153px;
+  width:24px;
+  height:39px;
+  float:left;
+  display:inline;
+  margin:7px 0 0 0;
 }
+
+.jquery-lightbox-buttons .jquery-lightbox-button-right:hover
+{
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -220px -194px;
+}
+
 
 .jquery-lightbox-buttons .jquery-lightbox-button-max
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat -72px -82px;
-  width:29px;
-  height:29px;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -182px -153px;
+  width:36px;
+  height:39px;
   float:left;
   display:inline;
+  margin:7px 0 0 0;
 }
 
 .jquery-lightbox-buttons .jquery-lightbox-button-max:hover
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat -141px -82px;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -182px -194px;
 }
 
 
 .jquery-lightbox-buttons .jquery-lightbox-button-min
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat -192px -82px;
-  width:29px;
-  height:29px;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -162px -235px;
+  width:36px;
+  height:39px;
   float:left;
   display:inline;
+  margin:7px 0 0 0;
 }
 
 .jquery-lightbox-buttons .jquery-lightbox-button-min:hover
 {
-  background: url(images/jquery-lightbox-theme.png) no-repeat -226px -82px;
+  background: url(../images/lightbox/jquery-lightbox-theme.png) no-repeat -207px -235px;
 }
 
 
 .jquery-lightbox-buttons-custom
 {
-  height:29px;
+  height:39px;
   float:left;
   display:inline;
-  background:#f3f3f3;
-  line-height:29px;
+  background:#2b2b2b;
+  line-height:39px;
   font-size:10px;
+  margin:7px 0 0 0;
 }
 
 .jquery-lightbox-buttons-custom a
 {
-  color:#141517;
+  color:#FFFFFF;
   font-size:10px;
   display:inline;
   font-weight:normal;
@@ -279,51 +292,23 @@
   padding:0 3px;
 }
 
+.jquery-lightbox-mode-image .jquery-lightbox-button-close
+{
+  opacity:0.7;
+}
+
+.jquery-lightbox-mode-image .jquery-lightbox-buttons
+{
+  opacity:0.3;
+}
+
+.jquery-lightbox-mode-image:hover .jquery-lightbox-buttons,
+.jquery-lightbox-mode-image:hover .jquery-lightbox-button-close
+{
+  opacity:0.9;
+}
+
 .jquery-lightbox-navigator
-{
-  position:absolute;
-  z-index:7002;
-  overflow:hidden;
-  top:7px;
-  left:7px;
-}
-
-.jquery-lightbox-navigator .jquery-lightbox-button-left
-{
-  background: url(images/jquery-lightbox-theme.png) no-repeat -7px -141px;
-  width:21px;
-  height:84px;
-  position:absolute;
-  left:0;
-  top:3px;
-}
-
-.jquery-lightbox-navigator .jquery-lightbox-button-left:hover
-{
-  background: url(images/jquery-lightbox-theme.png) no-repeat -50px -141px;
-}
-
-.jquery-lightbox-navigator .jquery-lightbox-button-right
-{
-  background: url(images/jquery-lightbox-theme.png) no-repeat -389px -141px;
-  width:21px;
-  height:84px;
-  position:absolute;
-  right:0;
-  top:3px;
-}
-
-.jquery-lightbox-navigator .jquery-lightbox-button-right:hover
-{
-  background: url(images/jquery-lightbox-theme.png) no-repeat -351px -141px;
-}
-
-.jquery-lightbox-navigator span
-{
-  display:none;
-}
-
-.jquery-lightbox-mode-html .jquery-lightbox-navigator
 {
   display:none;
 }

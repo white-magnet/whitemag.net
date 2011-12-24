@@ -6,17 +6,24 @@
     <meta name="description" content="White Magnet Software Private Limited is a privately held company operating from Hyderabad, India. We provide bandwidth/network optimization services to Internet Service Providers, Companies and Universities/Schools around the world." />
     <meta name="keywords" content="White Magnet, White Magnet Software, Videocache, Cache Videos, Proxy Server, Video Acceleration, Video Proxy, Squid Server, Squid Consultancy, Squid Support, Squid" />
     <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" type="text/css" href="js/themes/default/jquery.lightbox.css" />
-    <!--[if IE 6]><link rel="stylesheet" type="text/css" href="js/themes/default/jquery.lightbox.ie6.css" /><![endif]-->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/lightbox.css" media="screen, projection" />
+    <!--[if IE 6]><link rel="stylesheet" type="text/css" href="./css/lightbox.ie6.css" /><![endif]-->
+    <script type="text/javascript" src='js/script.min.js'></script>
+    <script type="text/javascript">
+      $script(['js/cufon-yui.js', 'js/neosans.js'], function() { Cufon.replace('h1'); Cufon.replace('h2'); Cufon.replace('#menu a', {hover:true} ); });
+    </script>
+    <script type="text/javascript">
+      $script(['js/jquery.min.js', 'js/lightbox.min.js'], function() { jQuery(document).ready(function(){ jQuery('.lightbox').lightbox(); }); });
+    </script>
   </head>
   <body>
     <div id="wrapper">
-      <div id="team-bg">
+      <div id="team-bg" class="round">
         <div class="section-left left">
           <h1>WELCOME</h1>
           <ul id="menu" class="left">
             <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
             <li><a href="./products.html">Products</a></li>
             <li><a href="./team.html" class="on">Team</a></li>
             <li><a href="./contact.html">Contact</a></li>
@@ -28,7 +35,7 @@
           <h2 class="neosans">Team</h2>
           <div id="team-content">
             <div class="member">
-              <a href="#" class="lightbox" title="This is a sample text"><img src="images/team/team.png" class="avatar" alt="" /></a>
+              <a href="images/team/team.png" class="lightbox" title="This is a sample text"><img src="images/team/team.png" class="avatar" alt="" /></a>
               <p class="member-name">Kulbir Saini</p>
             </div>
             <div class="clear"></div>
@@ -42,18 +49,5 @@
         </div><!--section-right-->
       </div><!--product-bg-->
     </div><!--wrapper-->
-    <script type="text/javascript" src="js/cufon-yui.js"></script>
-    <script type="text/javascript" src="js/neosans.js"></script>
-    <script type="text/javascript">
-      Cufon.replace('h1');
-      Cufon.replace('h2');
-      Cufon.replace('#menu a',{hover:true});
-    </script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
-    <script type="text/javascript">
-      jQuery(document).ready(function($){
-        //$('.lightbox').lightbox();
-      });
-    </script>
   </body>
 </html>
