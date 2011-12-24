@@ -164,18 +164,10 @@ ul#menu li a:hover, ul#menu li a.on {
   overflow: visible;
 }
 
-#logo-text {
-  background: url(../images/white-magnet-software-logo-text.png) no-repeat;
-  width: 247px;
-  height: 42px;
-  margin-right: 18px;
-}
-
-#logo-image {
-  background: url(../images/white-magnet-software-logo-image.png) no-repeat;
+#logo {
+  background: url(../images/white-magnet-software-logo.png) no-repeat;
   width: 270px;
-  height: 269px;
-  margin: 29px 0px 0px 0px;
+  height: 340px;
 }
 
 #videocache {
