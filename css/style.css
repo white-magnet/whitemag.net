@@ -141,9 +141,10 @@ ul#menu li a:hover, ul#menu li a.on {
 }
 
 #team-content .member {
-  width: 188px;
   position: relative;
   float: left;
+  width: 164px;
+  margin-right: 24px;
 }
 
 #team-content .member .avatar {
@@ -157,6 +158,8 @@ ul#menu li a:hover, ul#menu li a.on {
 
 #team-content .team p { text-align: center; color: #202020;}
 #team-content .team img { margin: 0 0 0 15px;}
+#team-content .invisible { display: none; }
+p.member-profile { width: 500px; height: auto; padding: 20px; border-radius: 5px; }
 
 .section-right {
   width: 314px;
@@ -198,3 +201,14 @@ ul#menu li a:hover, ul#menu li a.on {
   margin: 0px 0px 0px 335px;
 }
 
+#fancybox-outer {
+  border: 10px solid black;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#fancybox-title-inside {
+  font-weight: bold;
+  font-size: 14px;
+}
