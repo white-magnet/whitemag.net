@@ -1,3 +1,4 @@
+<?php $cur = 'team'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -19,18 +20,7 @@
   <body>
     <div id="wrapper">
       <div id="team-bg" class="round">
-        <div class="section-left left">
-          <h1>WELCOME</h1>
-          <ul id="menu" class="left">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./products.html">Products</a></li>
-            <li><a href="./team.html" class="on">Team</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-        </div><!--section-left-->
-
-        <div class="line left-line left"></div>
+        <?php include('left.php') ?>
         <div class="section-mid">
           <h2 class="neosans">Team</h2>
           <div id="team-content">
@@ -41,11 +31,7 @@
             <div class="clear"></div>
           </div>
         </div><!--section-mid-->
-
-        <div class="line right-line left"></div>
-        <div class="section-right right">
-          <a href="./" id="logo" class="right"></a>
-        </div><!--section-right-->
+        <?php include('right.php') ?>
       </div><!--product-bg-->
     </div><!--wrapper-->
   </body>
