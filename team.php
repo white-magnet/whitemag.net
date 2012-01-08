@@ -28,7 +28,7 @@
               <a class="profile-popup" href="#sambhav" title="Sambhav Jain"><img src="images/team/sambhav.png" class="avatar" alt="" /></a>
               <p class="member-name">Sambhav Jain</p>
               <div class="invisible">
-                <p class="member-profile" id="sambhav">White Magnet Software Pvt Ltd.</p>
+                <p class="member-profile" id="sambhav">Sambhav is specialized in developing large scale software solutions. His astounding programming skill and firm grip on acclaimed platforms has earned him leadership in variety of projects on software development, integration and maintenance. In past, he has worked on developing expert systems for the US Department of Labor. He has a passionate interest in developing software solutions involving artificial intelligence, data mining and machine learning. He has given technical talks on developing intelligent software and has also lectured courses on topics in Artificial Intelligence.</p>
               </div>
             </div><!--member-->
 
@@ -36,7 +36,7 @@
               <a class="profile-popup" href="#mahaveer" title="Mahaveer Singh Deora"><img src="images/team/mahaveer.png" class="avatar" alt="" /></a>
               <p class="member-name">Mahaveer Singh Deora</p>
               <div class="invisible">
-                <p class="member-profile" id="mahaveer">is a company operating from Hyderabad, India.</p>
+                <p class="member-profile" id="mahaveer">Veer holds a MS degree in Computer Science. His area of expertise include advance algorithms, software optimization and performance enhancement. His research interest include financial algorithms which are vividly used in automated trading and trading strategies software. His work has been recognized and published at reputed international conferences. He is widely applauded for his ability of breaking down and devising solution for open ended industrial problems. He has been designing and delivering quality software for more than three years now.</p>
               </div>
             </div><!--member-->
           </div><!--team-content-->
