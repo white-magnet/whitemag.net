@@ -8,8 +8,8 @@
             <li><a href="./contact.php" <?php if ($cur == 'contact') { print 'class="on"'; } ?>>Contact</a></li>
           </ul><!-- //menu -->
           <div class="clear"></div>
-          <div class="social">
+          <!--div class="social">
             <a href="http://twitter.com/white_magnet" target="_blank" rel="nofollow" class="link">@white_magnet</a>
-          </div>
+          </div-->
         </div><!--section-left-->
         <div class="line left-line left"></div>

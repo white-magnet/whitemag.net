@@ -12,7 +12,7 @@
         <div class="section-mid">
           <h2>Our Products</h2>
           <a id="videocache" class="right" href="http://cachevideos.com/" target="_blank"></a>
-          <p><strong>Videocache</strong> is a <a href="http://www.squid-cache.org/" target="_blank" rel="nofollow" class="link">Squid</a> URL rewriter plugin for bandwidth optimization while browsing famous video sharing websites like Youtube, Metacafe etc. It helps you save bandwidth when a particular video is requested more than once from the same network.</p>
+          <p><strong><a href="http://cachevideos.com/" target="_blank">Videocache</a></strong> is a <a href="http://www.squid-cache.org/" target="_blank" rel="nofollow" class="link">Squid</a> URL rewriter plugin for bandwidth optimization while browsing famous video sharing websites like Youtube, Metacafe etc. It helps you save bandwidth when a particular video is requested more than once from the same network.</p>
           <p>Squid can't cache the videos served dynamically. Videocache fits into squid to help it cache the videos. The cached videos are stored on your proxy server's local storage. These cached videos can be served to your clients at a faster speed saving your upstream bandwidth.</p>
         </div><!--section-mid-->
         <?php include('right.php') ?>

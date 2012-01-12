@@ -20,7 +20,7 @@
               <a class="profile-popup" href="#kulbir" title="Kulbir Saini"><img src="images/team/kulbir.png" class="avatar" alt="" /></a>
               <p class="member-name">Kulbir Saini</p>
               <div class="invisible">
-                <p class="member-profile" id="kulbir">White Magnet Software Pvt Ltd.</p>
+                <p class="member-profile" id="kulbir">Kulbir Saini, White Magnet founder, is an entrepreneur based in Hyderabad, India. He dropped out of masters program from <a href="http://iiit.ac.in/" rel="nofollow" target="_blank">IIIT, Hyderabad</a> where he had completed his bachelor's degree in Computer Science earlier. He acquired vast experience in managing IT infrastructure as a Student System Administrator during his stay at university. During his graduation, he conceptualized <a href="http://cachevideos.com/" target="_blank">Videocache</a> and moulded it into a usable product which is now a popular choice among ISPs and universities worldwide to cache videos from various video portals. To share his skills, acquired over the years, from working on Videocache, he wrote a book <a href="http://link.packtpub.com/XfcxIK" rel="nofollow" target="_blank">Squid Proxy Server 3.1: Beginner's Guide</a>. For several years, he worked as an independent freelancer working on various web/server technologies. Before getting started with White Magnet, he worked at <a href="http://crypsis.net/" rel="nofollow" target="_blank">Crypsis Technologies Pvt Ltd</a> (a Ruby on Rails startup) where he worked as a core team member undertaking end to end development of RoR applications.</p>
               </div>
             </div><!--member-->
 
