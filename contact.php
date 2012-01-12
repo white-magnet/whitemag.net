@@ -23,5 +23,6 @@
         <?php include('right.php') ?>
       </div><!--home-bg-->
     </div><!--wrapper-->
+    <?php include('footer.php'); ?>
   </body>
 </html>

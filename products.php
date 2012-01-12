@@ -18,5 +18,6 @@
         <?php include('right.php') ?>
       </div><!--product-bg-->
     </div><!--wrapper-->
+    <?php include('footer.php'); ?>
   </body>
 </html>
