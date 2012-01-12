@@ -14,7 +14,7 @@ a:hover { color: #b00; }
 body {
   font-size: 12px;
   font-family: Verdana, Geneva, sans-serif;
-  background: url(../images/body-bg.jpg) repeat-x;
+  background: url(../images/body-bg-min.jpg) repeat;
   margin:-100px 0 0 0;
 }
 
