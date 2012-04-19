@@ -14,8 +14,7 @@ a:hover { color: #b00; }
 body {
   font-size: 12px;
   font-family: Verdana, Geneva, sans-serif;
-  background: url(../images/body-bg-min.jpg) repeat;
-  margin:-100px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 h1 {
@@ -46,50 +45,23 @@ p + p {
   border-radius: 20px;
 }
 
-#home-bg {
-  background: url(../images/home-bg.jpg) no-repeat;
+#home-bg, #about-bg, #product-bg, #team-bg, #contact-bg {
+  background: #ccc;
+  width: 1206px;
   position: absolute;
-  width: 1366px;
-  height: 800px;
-}
-
-#about-bg {
-  background: url(../images/about-bg.jpg) no-repeat;
-  position: absolute;
-  width: 1366px;
-  height: 800px;
-}
-
-#product-bg {
-  background: url(../images/products-bg.jpg) no-repeat;
-  position: absolute;
-  width: 1366px;
-  height: 800px;
-}
-
-#team-bg {
-  background: url(../images/team-bg.jpg) no-repeat;
-  position: absolute;
-  width: 1366px;
-  height: 800px;
-}
-
-#contact-bg {
-  background: url(../images/contact-bg.jpg) no-repeat;
-  position: absolute;
-  width: 1366px;
-  height: 800px;
+  padding: 50px 0px;
+  margin-top: 150px;
 }
 
 #wrapper {
-  width: 1366px;
+  width: 1206px;
   margin: 0 auto;
   height: auto;
   position: relative;
 }
 
 .section-left {
-  margin: 431px 0 0 114px;
+  margin: 49px 0 0 34px;
   overflow: visible;
   display: inline;
 }
@@ -98,7 +70,7 @@ p + p {
   background: url(../images/line.png) no-repeat;
   width: 13px;
   height: 300px;
-  margin: 386px 0px 0px 27px;
+  margin: 4px 0px 0px 17px;
 }
 
 .left-line { margin-left: 27px; }
@@ -126,7 +98,7 @@ ul#menu li a:hover, ul#menu li a.on {
 }
 
 .section-mid {
-  margin: 390px 0 0 27px;
+  margin: 10px 0 0 17px;
   float: left;
   width: 566px;
   height: auto;
@@ -162,16 +134,15 @@ ul#menu li a:hover, ul#menu li a.on {
 p.member-profile { width: 500px; height: auto; padding: 20px; border-radius: 5px; }
 
 .section-right {
-  width: 314px;
-  height: 340px;
-  margin: 382px 73px 0 0;
+  height: 290px;
+  margin: 10px 0px 0px 17px;
   overflow: visible;
 }
 
 #logo {
   background: url(../images/white-magnet-software-logo.png) no-repeat;
   width: 270px;
-  height: 340px;
+  height: 290px;
 }
 
 #videocache {
