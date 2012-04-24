@@ -17,7 +17,7 @@ h2 { font-size: 30px; color: #000; margin-bottom: 15px; }
 p { font-size: 14px; color: #000; line-height: 25px; text-align: justify; }
 p + p { margin-top: 10px; }
 
-.round { -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; border: 1px solid black; }
+.round { border: 1px solid black; }
 
 #home-bg,#about-bg,#product-bg,#team-bg,#contact-bg { background: #ccc; width: 100%; position: absolute; padding: 30px 0px 10px 0px; margin-top: 150px; }
 #wrapper { width: 1075px; margin: 0 auto; position: relative; }
