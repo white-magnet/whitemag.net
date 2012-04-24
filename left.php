@@ -1,5 +1,4 @@
         <div class="section-left left">
-          <h1>WELCOME</h1>
           <ul id="menu" class="left">
             <li><a href="./index.php" <?php if ($cur == 'home') { print 'class="on"'; } ?>>Home</a></li>
             <!--li><a href="./about.php" <?php if ($cur == 'about') { print 'class="on"'; } ?>>About</a></li-->

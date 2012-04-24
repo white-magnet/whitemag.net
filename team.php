@@ -5,8 +5,9 @@
     <title>Team | White Magnet Software Private Limited</title>
     <?php include('head.php') ?>
     <link rel="stylesheet" type="text/css" href="./css/fancybox.css" media="screen, projection" />
+    <script src="/js/jquery-fancybox.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-      $script(['js/jquery-fancybox.min.js'], function() { jQuery(document).ready(function(){ jQuery('.profile-popup').fancybox({ 'titlePosition' : 'inside', 'transitionIn' : 'elastic', 'transitionOut' : 'none' }); }); });
+      jQuery(document).ready(function(){ jQuery('.profile-popup').fancybox({ 'titlePosition' : 'inside', 'transitionIn' : 'elastic', 'transitionOut' : 'none' }); });
     </script>
   </head>
   <body>
@@ -16,7 +17,7 @@
         <div class="section-mid">
           <h2 class="neosans">Team</h2>
           <div id="team-content">
-            <div class="member">
+            <div class="member first">
               <a class="profile-popup" href="#kulbir" title="Kulbir Saini"><img src="images/team/kulbir.png" class="avatar" alt="" /></a>
               <p class="member-name">Kulbir Saini</p>
               <div class="invisible">
@@ -32,7 +33,7 @@
               </div>
             </div><!--member-->
 
-            <div class="member">
+            <div class="member last">
               <a class="profile-popup" href="#mahaveer" title="Mahaveer Singh Deora"><img src="images/team/mahaveer.png" class="avatar" alt="" /></a>
               <p class="member-name">Mahaveer Singh Deora</p>
               <div class="invisible">

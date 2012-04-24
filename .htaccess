@@ -1,1 +1,8 @@
 SetEnv session.use_cookies='0';
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{HTTP_HOST} !=whitemag.net [NC]
+  RewriteRule ^(.*)$ http://whitemag.net/$1 [L,R=301]
+</IfModule>
+

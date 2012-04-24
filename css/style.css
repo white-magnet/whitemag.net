@@ -11,175 +11,49 @@ a:focus { outline: none; }
 a:hover { color: #b00; }
 .link:hover { border-bottom: 2px solid #a00; }
 
-body {
-  font-size: 12px;
-  font-family: Verdana, Geneva, sans-serif;
-  margin: 10px 0 0 0;
-}
+body { font-size: 12px; font-family: inherit; margin: 10px 0 0 0; }
+h1 { font-size: 35px; color: #252525; }
+h2 { font-size: 30px; color: #000; margin-bottom: 15px; }
+p { font-size: 14px; color: #000; line-height: 25px; text-align: justify; }
+p + p { margin-top: 10px; }
 
-h1 {
-  font-size: 35px;
-  color: #252525;
-}
+.round { -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; border: 1px solid black; }
 
-h2 {
-  font-size: 30px;
-  color: #000;
-  margin-bottom: 15px;
-}
+#home-bg,#about-bg,#product-bg,#team-bg,#contact-bg { background: #ccc; width: 100%; position: absolute; padding: 30px 0px 10px 0px; margin-top: 150px; }
+#wrapper { width: 1075px; margin: 0 auto; position: relative; }
 
-p {
-  font-size: 14px;
-  color: #000;
-  line-height: 25px;
-  text-align: justify;
-}
+.section-left { margin: 100px 0 0 13px; float: left; }
 
-p + p {
-  margin-top: 10px;
-}
+.line { background: url(../images/line.png) no-repeat scroll right center; width: 23px; height: 300px; margin: 0px; }
 
-.round {
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-}
+ul#menu { width: 123px; margin: 0px; text-align: right; display: inline; }
+ul#menu li a { font-weight: bold; color: #434343; font-size: 18px; display: block; width: 104px; padding: 5px 18px 0 0; }
+ul#menu li a:hover, ul#menu li a.on { background: url(../images/hover.png) 0 2px no-repeat; color: #fff; }
 
-#home-bg, #about-bg, #product-bg, #team-bg, #contact-bg {
-  background: #ccc;
-  width: 1206px;
-  position: absolute;
-  padding: 50px 0px;
-  margin-top: 150px;
-}
+.section-mid { padding: 10px 5px 0 13px; float: left; width: 573px; }
 
-#wrapper {
-  width: 1206px;
-  margin: 0 auto;
-  height: auto;
-  position: relative;
-}
-
-.section-left {
-  margin: 49px 0 0 34px;
-  overflow: visible;
-  display: inline;
-}
-
-.line {
-  background: url(../images/line.png) no-repeat;
-  width: 13px;
-  height: 300px;
-  margin: 4px 0px 0px 17px;
-}
-
-.left-line { margin-left: 27px; }
-.right-line { margin-left: 35px; }
-
-ul#menu {
-  margin: 23px 0 0 50px;
-  text-align: right;
-  display: inline;
-}
-
-ul#menu li a {
-  font: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  color: #434343;
-  font-size: 20px;
-  display: block;
-  width: 104px;
-  padding: 5px 18px 0 0;
-}
-
-ul#menu li a:hover, ul#menu li a.on {
-  background: url(../images/hover.png) 0 2px no-repeat;
-  color: #fff;
-}
-
-.section-mid {
-  margin: 10px 0 0 17px;
-  float: left;
-  width: 566px;
-  height: auto;
-  overflow: visible;
-}
-
-#team-content {
-  display: block;
-  margin: 0;
-  width: 566px;
-  position: relative;
-}
-
-#team-content .member {
-  position: relative;
-  float: left;
-  width: 164px;
-  margin-right: 24px;
-}
-
-#team-content .member .avatar {
-  width: 164px;
-  height: 188px;
-}
-
-#team-content .member .member-name {
-  text-align: center;
-}
-
+#team-content { display: block; margin: 0; width: 566px; position: relative; }
+#team-content .member { position: relative; float: left; width: 164px; margin-right: 24px; }
+#team-content .member .avatar { width: 164px; height: 188px; }
+#team-content .member .member-name { text-align: center; }
+#team-content .member.first { margin-left: 22px }
+#team-content .member.last { margin-right: 0px }
 #team-content .team p { text-align: center; color: #202020;}
 #team-content .team img { margin: 0 0 0 15px;}
 #team-content .invisible { display: none; }
-p.member-profile { width: 500px; height: auto; padding: 20px; border-radius: 5px; }
+p.member-profile { width: 500px; padding: 20px; border-radius: 5px; }
+.typekit-badge { display: none !important; }
 
-.section-right {
-  height: 290px;
-  margin: 10px 0px 0px 17px;
-  overflow: visible;
-}
+.section-right { margin: 10px 0px 0px 13px; }
 
-#logo {
-  background: url(../images/white-magnet-software-logo.png) no-repeat;
-  width: 270px;
-  height: 290px;
-}
+#logo { background: url(../images/white-magnet-software-logo.png) no-repeat; width: 270px; height: 290px; }
+#videocache { background: url(../images/videocache.png) no-repeat; width: 110px; height: 110px; margin-left: 15px; }
 
-#videocache {
-  background: url(../images/videocache.png) no-repeat;
-  width: 110px;
-  height: 110px;
-  margin-left: 15px;
-}
+.social { margin: 23px 0 0 0px; text-align: right; width: 154px; padding: 5px 18px 0 0; }
+.social a { font-size: 15px; font-weight: bold; }
 
-.social {
-  margin: 23px 0 0 0px;
-  text-align: right;
-  width: 154px;
-  padding: 5px 18px 0 0;
-}
+.copyright { width: 100%; text-align: center; margin-top: 5px; }
 
-.social a {
-  font-size: 15px;
-  font-weight: bold;
-}
+#fancybox-outer { border: 10px solid black; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; }
+#fancybox-title-inside { font-weight: bold; font-size: 14px; }
 
-.copyright {
-  width: 566px;
-  overflow: visible;
-  height: auto;
-  float: left;
-  margin: 0px 0px 0px 335px;
-}
-
-#fancybox-outer {
-  border: 10px solid black;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-}
-
-#fancybox-title-inside {
-  font-weight: bold;
-  font-size: 14px;
-}
