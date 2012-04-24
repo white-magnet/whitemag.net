@@ -9,7 +9,7 @@ a { color: #DA1C0E; }
 a:focus { outline: none; }
 a:hover { color: #b00; }
 .link:hover { border-bottom: 2px solid #a00; }
-body { font-size: 12px; font-family: inherit; margin: 10px 0 0 0; }
+body { font-size: 12px; font-family: inherit; margin: 10px 0 0 0; background: url('../images/body-bg.jpg'); }
 h1 { font-size: 35px; color: #252525; }
 h2 { font-size: 30px; color: #000; margin-bottom: 15px; }
 p { font-size: 14px; color: #000; line-height: 25px; text-align: justify; }
