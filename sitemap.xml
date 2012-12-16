@@ -7,27 +7,27 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://whitemagnet.com/</loc>
+  <loc>http://whitemag.net/</loc>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://whitemagnet.com/index.php</loc>
+  <loc>http://whitemag.net/index.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://whitemagnet.com/products.php</loc>
+  <loc>http://whitemag.net/products.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://whitemagnet.com/team.php</loc>
+  <loc>http://whitemag.net/team.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://whitemagnet.com/contact.php</loc>
+  <loc>http://whitemag.net/contact.php</loc>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
