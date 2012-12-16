@@ -1,4 +1,5 @@
 SetEnv session.use_cookies='0';
+RedirectMatch 301 /forum.* http://whitemag.net/
 
 <IfModule mod_rewrite.c>
   RewriteEngine on
@@ -8,5 +9,8 @@ SetEnv session.use_cookies='0';
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{HTTP_HOST} =data.whitemag.net [NC]
   RewriteRule ^(.*)$ http://whitemag.net/ [L,R=301]
+
+  RewriteCond %{HTTP_HOST} !=whitemag.net [NC]
+  RewriteRule ^(.*)$ http://whitemag.net/$1 [L,R=301]
 </IfModule>
 
